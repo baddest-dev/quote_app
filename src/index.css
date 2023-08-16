@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+ 
+    .b{
+        position:absolute;
+        top:50%;
+        right: 1rem;
+        transform: translate(50%,-50%);
+        z-index: 10;
+    }
+    header a.active,
+    .profile a.active{
+        @apply text-purple-700
+    }
+    header a:hover,
+    .profile a:hover{
+        @apply text-purple-700 
+    }
+    .button{   
+        top:50%;
+        right: 2.2rem;
+        transform: translate(50%,-50%);
+    }
+}

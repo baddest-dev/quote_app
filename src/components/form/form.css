@@ -1,0 +1,22 @@
+button{
+    cursor: pointer;
+    @apply transition-all
+}
+.btn-primary{
+    @apply bg-purple-700 text-white hover:bg-purple-900 transition-colors disabled:bg-purple-400;
+}
+button,input{
+    @apply rounded-md
+}
+.btn-lg{
+    @apply p-2;
+}
+.btn-xsm{
+    @apply text-xs font-semibold px-2 py-1
+}
+.btn-slate{
+    @apply hover:bg-gray-100;
+}
+.btn-danger{
+    @apply text-red-700 hover:bg-red-200;
+}
